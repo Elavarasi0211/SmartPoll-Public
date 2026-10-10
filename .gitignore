@@ -1,0 +1,45 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+coverage/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# SmartPoll private data
+smartpoll.db
+*.db
+*.sqlite
+*.sqlite3
+smartpoll_backup*
+database_backup/
+face_dataset/
+**/embeddings.pkl
+vote_shares/
+**/vote_shares/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
