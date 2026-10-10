@@ -12,11 +12,30 @@ coverage/
 .vscode/
 *.iml
 
+# Android local files and build caches
+android/.gradle/
+android/.kotlin/
+android/local.properties
+android/**/build/
+android/captures/
+android/key.properties
+*.jks
+*.keystore
+
+# iOS generated files
+ios/Flutter/ephemeral/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Pods/
+ios/.symlinks/
+ios/Runner/GeneratedPluginRegistrant.*
+
 # Python
 __pycache__/
 *.py[cod]
 venv/
 .venv/
+.venv312/
 env/
 
 # Secrets
@@ -43,3 +62,6 @@ vote_shares/
 *.log
 tmp/
 temp/
+.DS_Store
+Thumbs.dbandroid/app/google-services.json
+macos/Flutter/ephemeral/
